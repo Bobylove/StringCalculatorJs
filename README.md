@@ -11,7 +11,7 @@ Le but est d'afficher dans la console le résultat numérique d'une opération d
 - "0" => 0
 - "1" => 1
 - "1+2" => 3
-- "bloublou" => 8
+- "2" => 2
 
 ## Infrastructure technique
 
