@@ -8,5 +8,10 @@ describe("StringCalculator execution", function () {
    it("string  =  0 ",function (){
    	expect(StringCalculator("")).toBe(0);
      });
+      it("string '0'  =  0 ",function (){
+   	expect(StringCalculator("0")).toBe(0);
+     });
+
+
 
 });
