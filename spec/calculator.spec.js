@@ -18,4 +18,8 @@ describe("StringCalculator execution", function () {
   		expect(StringCalculator("1")).toBe(1);
   	});
 
+  	it("should return 3 when input is '1+2'",function () {
+  		expect(StringCalculator("1+2")).toBe(3);
+  	});
+
 });
